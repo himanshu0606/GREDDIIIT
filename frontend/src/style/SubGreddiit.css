@@ -1,0 +1,92 @@
+.subgreddiit {
+    background-color: rgb(149, 158, 236);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.formSearchSub input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(187, 193, 240);
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.formSearchSub{
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+
+.submitButtonSub{
+    right: 0px;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #fa709a;
+    height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+}
+
+.submitButtonSub:hover{
+    text-decoration: underline;
+}
+
+.filterSearchSub{
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filterSearchSub input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(187, 193, 240);
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.SortSub{
+    display: flex;
+   
+    color: #fff;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+.checkBoxSort{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.checkBoxSort input{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.checkBoxSort label{
+    font-size: 22px;
+}
+
+.joinSub{
+    color: #fa709a;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}

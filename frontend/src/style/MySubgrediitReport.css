@@ -1,0 +1,60 @@
+.reportSubDet {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.reportRow {
+    display: flex;
+    flex-direction: column;
+    background-color: #fa709a;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.reportPostUser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ReportedpostOwner {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.reportPostDesc {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+    border: 1px #fff solid;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.concernReport {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonReport {
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttonReport:hover{
+    text-decoration: underline;
+}

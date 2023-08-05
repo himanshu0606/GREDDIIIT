@@ -1,0 +1,121 @@
+.profileLogout{
+    color: #fff;
+    background-color: #fa709a;
+    border-radius: 10px;
+    width:100px;
+    height: 35px;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    font-weight: 600;
+}
+.LogoutLinkProfile{
+    text-decoration: none;
+    color: #fff;
+}
+
+.LogoutLinkProfile:hover{
+    text-decoration: underline;
+}
+
+.ProfileNavLink{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProfileBody{
+    background-color:  rgb(149, 158, 236);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.wrapperProfile{
+    position: relative;
+    width: 70%;
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(187, 193, 240);
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: auto;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.wrapperProfile h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userProfileItem{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ProfileTitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fa709a;
+    margin-right: 10px;
+}
+
+.ProfileKey{
+    color: #fff;
+    font-size: 20px;
+}
+
+.EditButtonProfile{
+    margin-top: 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #fa709a;
+    color: #fff;
+    border-radius: 15px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.EditButtonProfile:hover{
+    text-decoration: underline;
+}
+
+.ProfileFollower{
+    position: relative;
+    width: 70%;
+    height: 150px;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(187, 193, 240);
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: column;
+    padding: 30px;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProfileFollowerLink{
+    text-decoration: none;
+    color:#fa709a;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.ProfileFollowerLink:hover{
+    text-decoration: underline;
+}

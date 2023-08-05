@@ -1,0 +1,186 @@
+.SubProfileWrapper {
+    background-color: rgb(149, 158, 236);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.displayOwnerDetails {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.displayData {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(187, 193, 240);
+    border-radius: 10px;
+    padding: 20px 10px;
+    color: #fff;
+}
+
+.displayItemUserandPost {
+    display: flex;
+    justify-content: space-between;
+}
+
+.displayItem span:nth-child(1) {
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.subGreddiitUser-PostProfile {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.subGreddiitUser-Post{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.SubgreddiitName{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.SubgreddiitDet{
+    margin-left: 10px;
+    font-weight:600 ;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.postWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.addPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.newPostsubmit{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: 600;
+    background-color: #fa709a;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.Reportsubmit{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.Reportsubmit:hover{
+    text-decoration: underline;
+}
+
+.newPostsubmit:hover{
+    text-decoration: underline;
+}
+
+.cardHeaderPost{
+    display: flex;
+    padding: 10px;
+    background-color: #fa709a;
+    flex-direction: column;
+    color: #fff;
+}
+
+.FollowPost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.followProfile:hover{
+    text-decoration: underline;
+}
+
+.postedBy{
+    display: flex;
+    flex-direction: column;
+}
+
+.postedBy span:nth-child(1){
+    opacity: 0.8;
+}
+
+.postedBy span:nth-child(2){
+    text-decoration: underline;
+}
+
+.LikeDislikeWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LikeDislike{
+    display: flex;
+}
+
+.CommentSave{
+    display: flex;
+}
+
+.postComment{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.addComment input{
+    border: none;
+    outline: none;
+    width:100%;
+    background:transparent;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+.addComment button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #fa709a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.addComment button:hover{
+    text-decoration: underline;
+}

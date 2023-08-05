@@ -1,0 +1,6 @@
+.savePostWrapper{
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(149, 158, 236);
+    flex-direction: column;
+}

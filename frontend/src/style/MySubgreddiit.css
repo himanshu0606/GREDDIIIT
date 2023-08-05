@@ -1,0 +1,184 @@
+.mySubgreddiitBody {
+    background-color: rgb(149, 158, 236);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.createSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.formNewSub {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(187, 193, 240);
+    border-radius: 20px;
+    color: #fff;
+    flex-direction: column;
+}
+
+.inputNewSub {
+    position: relative;
+    width: 90%;
+    margin: 30px 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputNewSub label {
+    top: 5%;
+    left: 6px;
+    font-size: 22px;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.inputNewSub input {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fa709a;
+    padding: 0px 10px 0px 5px;
+    font-weight: 600;
+}
+
+.inputNewSubImage {
+    position: relative;
+    width: 90%;
+    margin: 30px 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputNewSubImage label {
+    top: 5%;
+    left: 6px;
+    font-size: 22px;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.inputNewSubImage input{
+    margin-top: 20px;
+    color: #fa709a;
+    font-weight: 400;
+}
+
+
+
+.createNewSub {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #fa709a;
+    width: 40%;
+    position: right;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.createNewSub:hover {
+    text-decoration: underline;
+}
+
+.mySubgreddiitBody {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.mysubGreddiitUser-Post {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.UserSubgreddiit {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.SubGreddiitDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.subGreddiitName {
+    color: #fff;
+    font-size: 20px;
+}
+
+.SubGreddiitDesc {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.SubGreddiitDesc span:nth-child(1) {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.SubGreddiitDesc span:nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+    color: #fa709a;
+}
+
+.RemovesubGreddiit {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.RemovesubGreddiit span:nth-child(1) {
+    background-color: #fa709a;
+    color: #fff;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.RemovesubGreddiit span:nth-child(2) {
+    background-color: #fa709a;
+    color: #fff;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.RemovesubGreddiit span:hover {
+    text-decoration: underline;
+}
+
+.RemovesubGreddiit Link:hover {
+    text-decoration: underline;
+}
