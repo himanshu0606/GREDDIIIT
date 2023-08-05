@@ -1,21 +1,4 @@
-## Installations
 
-
-# Greddiit using MERN STACK
-
-### BONUS PARTS 
-
-- Chats
-- Back button disable
-- Nested Comments
-- Shortcut Keys
-- Graphs for stats
-- Google Login
-- CAS Login
-- Image Upload
-- email notification to the Reporter about the action taken
-- When the reported user is blocked or the post is deleted then send an email notification about the same to the reported user too
-- Fuzzy Search
 
 ## Instructions to run the code
 
